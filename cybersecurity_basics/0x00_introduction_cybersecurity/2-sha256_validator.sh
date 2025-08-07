@@ -1,3 +1,3 @@
 #!/bin/bash
-hash=$(sha256sum "$1" | awk '{print $1}')
-[ "$hash" = "$2" ] && echo "$1: OK" || echo "$1: NOT OK"
+echo "$2  $1" | sha256sum -c -
+
