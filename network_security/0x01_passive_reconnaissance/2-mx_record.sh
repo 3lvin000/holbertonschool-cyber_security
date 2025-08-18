@@ -1,2 +1,2 @@
 #!/bin/bash
-nslookup -tybe=MX "$1"
+^nslookup\s+(-q|-type|-querytype|-query)=?[mM][xX]\s+\$1
