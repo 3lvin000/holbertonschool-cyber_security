@@ -1,2 +1,2 @@
-#!/usr/bin/env bash 
+#!/usr/bin/bash 
 nslookup -type=A "$1"
