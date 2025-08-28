@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap -sn -PR $SUBNET
+sudo nmap -PR -sn $SUBNET
