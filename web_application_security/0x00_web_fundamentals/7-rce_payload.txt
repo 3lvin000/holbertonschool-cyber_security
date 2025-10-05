@@ -9,3 +9,4 @@ For more information about these matters, see the file named COPYING.
 Original idea and design by Avian Research <hobbit@avian.org>,
 Written by Giovanni Giacobbi <giovanni@giacobbi.net>.
 wget
+chmod
