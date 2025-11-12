@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap -sS -oN --scanflags ALL -p "$2" "{-80-90}" "$1" > custom_scan.txt 2>&1
+sudo nmap -sS --scanflags ALL -p "$2" "$1" -oN custom_scan.txt >/dev/null 2>&1
