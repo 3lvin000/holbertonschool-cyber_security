@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo nmap -sS --scanflags ALL -p "$2" "{-80-90}" "$1" 
+sudo nmap -sS -oN --scanflags ALL -p "$2" "{-80-90}" "$1" 
