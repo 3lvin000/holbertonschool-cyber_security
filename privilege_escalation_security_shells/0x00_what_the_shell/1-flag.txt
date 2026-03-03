@@ -1,0 +1,1 @@
+CTF{who_needs_espace_when_u_have_bash_HASH : 00b9245563f2ca7c418d1de9c06e96a3}
